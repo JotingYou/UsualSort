@@ -1,2 +1,2 @@
-# UsualSort
-Sort learning(C)
+# 常见排序法
+数据结构中常见的排序法实现与总结。
