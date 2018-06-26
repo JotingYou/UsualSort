@@ -26,7 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		3E0C822A207F958D00FDBA21 /* 常见排序法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "常见排序法"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E0C822A207F958D00FDBA21 /* UsualSort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = UsualSort; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E0C822D207F958D00FDBA21 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		3E0C823A207F9D4000FDBA21 /* FindMethod.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = FindMethod.c; sourceTree = "<group>"; };
 		3E0C823B207F9D4000FDBA21 /* FindMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindMethod.h; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		3E0C8221207F958D00FDBA21 = {
 			isa = PBXGroup;
 			children = (
-				3E0C822C207F958D00FDBA21 /* 常见排序法 */,
+				3E0C822C207F958D00FDBA21 /* UsualSort */,
 				3E0C822B207F958D00FDBA21 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,12 +58,12 @@
 		3E0C822B207F958D00FDBA21 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3E0C822A207F958D00FDBA21 /* 常见排序法 */,
+				3E0C822A207F958D00FDBA21 /* UsualSort */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3E0C822C207F958D00FDBA21 /* 常见排序法 */ = {
+		3E0C822C207F958D00FDBA21 /* UsualSort */ = {
 			isa = PBXGroup;
 			children = (
 				3E0C823A207F9D4000FDBA21 /* FindMethod.c */,
@@ -74,15 +74,15 @@
 				3EF22C2020CBCCE200E4061E /* Element.h */,
 				3EF22C2120CBCCE200E4061E /* Element.c */,
 			);
-			path = "常见排序法";
+			path = UsualSort;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3E0C8229207F958D00FDBA21 /* 常见排序法 */ = {
+		3E0C8229207F958D00FDBA21 /* UsualSort */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3E0C8231207F958D00FDBA21 /* Build configuration list for PBXNativeTarget "常见排序法" */;
+			buildConfigurationList = 3E0C8231207F958D00FDBA21 /* Build configuration list for PBXNativeTarget "UsualSort" */;
 			buildPhases = (
 				3E0C8226207F958D00FDBA21 /* Sources */,
 				3E0C8227207F958D00FDBA21 /* Frameworks */,
@@ -92,9 +92,9 @@
 			);
 			dependencies = (
 			);
-			name = "常见排序法";
+			name = UsualSort;
 			productName = "常见排序法";
-			productReference = 3E0C822A207F958D00FDBA21 /* 常见排序法 */;
+			productReference = 3E0C822A207F958D00FDBA21 /* UsualSort */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -112,7 +112,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3E0C8225207F958D00FDBA21 /* Build configuration list for PBXProject "常见排序法" */;
+			buildConfigurationList = 3E0C8225207F958D00FDBA21 /* Build configuration list for PBXProject "UsualSort" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -124,7 +124,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3E0C8229207F958D00FDBA21 /* 常见排序法 */,
+				3E0C8229207F958D00FDBA21 /* UsualSort */,
 			);
 		};
 /* End PBXProject section */
@@ -272,7 +272,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3E0C8225207F958D00FDBA21 /* Build configuration list for PBXProject "常见排序法" */ = {
+		3E0C8225207F958D00FDBA21 /* Build configuration list for PBXProject "UsualSort" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3E0C822F207F958D00FDBA21 /* Debug */,
@@ -281,7 +281,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3E0C8231207F958D00FDBA21 /* Build configuration list for PBXNativeTarget "常见排序法" */ = {
+		3E0C8231207F958D00FDBA21 /* Build configuration list for PBXNativeTarget "UsualSort" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3E0C8232207F958D00FDBA21 /* Debug */,
