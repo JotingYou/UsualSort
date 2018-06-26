@@ -8,14 +8,15 @@
 
 #include "SortFunc.h"
 #include <stdlib.h>
-#pragma mark -
-#pragma mark 选择排序
 //交换
 void swap(Element *x,Element *y){
     Element temp = *x;
     *x = *y;
     *y = temp;
 }
+#pragma mark -
+#pragma mark 选择排序
+
 //循环实现选择排序
 void chooseSortByLoop(Element *array,int n){
     int min;
@@ -104,6 +105,36 @@ void insertSort(Element * restrict a,int n){
         insert(a, j-1);
     }
 
+}
+#pragma mark -
+#pragma mark 希尔排序
+void shellInsert(Element * restrict a,int dk,int n){
+    for (int i = dk+1; i <= n; i++) {
+        if (a[i].key < a[i-dk].key) {
+            a[0] = a[i];
+            int j = i-dk;
+            for (j=i-dk; j>0 && a[0].key<a[j].key; j-=dk) {
+                a[j+dk] = a[j];
+            }
+            a[j+dk] = a[0];
+        }
+    }
+}
+void shellSort(Element * restrict a,int * restrict delt,int n){
+    for (int k=0; k<n; k++) {
+        shellInsert(a, delt[k],n);
+    }
+}
+#pragma mark -
+#pragma mark 冒泡排序
+void bubbleSort(Element * restrict a,int n){
+    for (int i=0; i<n; i++) {
+        for (int j= i+1; j<n; j++) {
+            if (a[i].key > a[j].key) {
+                swap(a+i, a+j);
+            }
+        }
+    }
 }
 #pragma mark -
 #pragma mark 快速排序

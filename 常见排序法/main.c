@@ -13,15 +13,22 @@
 ///打印数组
 void printArray(Element*,int);
 int main(int argc, const char * argv[]) {
-    // insert code here...
+    // Array init
     Element array[N] = {{100},{3},{4},{2},{1},{7},{0},{9},{3},{2},{10},{32},{1},{0},{3}};
+    
+    puts("Original Array:");
     printArray(array, N);
-    mergeSort(array, N-1);
+    
+    //Sort function:
+    bubbleSort(array, N);
+    
+    puts("After Sort:");
     printArray(array, N);
+    
+    //Search function:
     Element aim = {1};
     printf("local = %d\n",bineSearch(array, aim, 0, N-1));
-//    char list[N] = "abcde";
-//    perm(list, 0, 4);
+    
     return 0;
 }
 void printArray(Element *array,int n){
